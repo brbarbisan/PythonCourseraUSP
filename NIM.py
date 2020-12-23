@@ -1,3 +1,6 @@
+#Jogo do NIM
+#Ainda em aperfeiçoamento, não passou no primeiro envio
+
 def computador_escolhe_jogada(n, m):
     out = 1
     while out != m:
@@ -7,7 +10,7 @@ def computador_escolhe_jogada(n, m):
             out +=1
     return out
 
-def usuario_escolher_jogada(n, m):
+def usuario_escolhe_jogada(n, m):
     play = False
     while not play:
         out = int(input('Informe sua jogada: '))
